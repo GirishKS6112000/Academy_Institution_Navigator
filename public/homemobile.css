@@ -1,0 +1,113 @@
+
+/* TABLET & MOBILE*/
+
+@media screen and (max-width: 768px)
+    {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .searchmain{
+        position: static;
+     
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+        
+    }
+    #myUL{
+       width: 100%;
+        margin-left: 0px;
+}
+    #myUL1{
+        width: 100%;
+        margin-left: 0px;
+        }
+    
+    
+}
+
+@media screen and (max-width: 768px)
+    {
+    .header{
+    width: 20%;
+    }
+    .header>video{
+        margin-left: -15px;
+    }
+}
+@media screen and (max-width: 768px)
+    {
+    .marquee{
+       
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px)
+     {
+   
+    #main{
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+    }
+    
+    .mainhead{
+        margin-top: -70px;
+    }
+
+    .overlay{
+       display: none;
+        
+    }
+    .welcome{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+       
+    }
+    .welcome>h1{
+        font-size: 30px;
+        
+    }
+}
+
+
+@media screen and (max-width: 1024px)
+    {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .searchmain{
+        position: static;
+     
+        width: 80%;
+        height: auto;
+        margin: 20px;
+        padding: 20px;
+        
+    }
+
+    #searchsection>input{
+        width: 70%;
+
+    }
+    #myUL{
+       width: 100%;
+        margin-left: 0px;
+}
+    #myUL1{
+        width: 100%;
+        margin-left: 0px;
+        }
+        .overlay{
+            display: none;
+             
+         }
+    
+}

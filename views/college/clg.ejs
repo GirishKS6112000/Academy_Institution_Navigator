@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="/static/style2.css">
+    <link rel="stylesheet" href="/static/clgmobile.css">
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body style="background-color: rgb(211, 211, 211);" >
+   <!--NavBar-->
+   <nav class="nav">
+    <div class="navbar">
+    <a class="nav-link" aria-current="page" href="/">Home</a>
+    <a class="nav-link" href="/about">About</a>
+    <a class="nav-link" href="/contact">Contact</a>
+  </div>
+</nav>  
+
+  </div>
+    <div class="headclg" id="headclg">
+        <h1>Welcome To <%=result.clgname%></h1>
+    </div><br>
+  
+    <section class="aboutclg" id="aboutclg">
+        <h1 style="font-size: 30px;">About Us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum tempore sint, tempora maxime est voluptate corrupti doloribus nesciunt natus, illo fuga ipsam veniam autem temporibus rem laborum eum cumque consequuntur! Placeat quia esse natus!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, officia labore, ipsum consectetur repellendus corrupti repellat animi exercitationem quidem quisquam ullam atque cum et eius! Maxime cum necessitatibus quidem unde voluptas asperiores doloribus. Dolorum ab nisi mollitia debitis dolore nemo dignissimos cumque omnis placeat quas doloremque veniam voluptate libero labore, esse pariatur natus. Rerum ea impedit, velit sit ipsam eaque! Tempore commodi maiores omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui harum aspernatur repellat inventore voluptate accusamus necessitatibus doloribus quis molestiae perferendis explicabo odio, similique, quidem earum quasi! Commodi odio, doloremque praesentium consequuntur earum, velit debitis quos tenetur explicabo cum cupiditate totam recusandae tempore possimus voluptas accusantium libero esse eius? Consectetur dignissimos necessitatibus delectus aut quo, magni minima maiores ipsa odio nulla consequatur sed numquam saepe ea aperiam id tempora voluptates perspiciatis non! Totam, saepe? Totam quas placeat nostrum ipsa voluptatum, optio, assumenda corrupti aliquid esse fuga deleniti cumque aut nemo. Impedit nam officia, sapiente architecto soluta veritatis dolores. Dolorum, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque et consequuntur neque ab laborum tempore dolor obcaecati atque aspernatur? Placeat neque, porro ipsam aut nostrum pariatur modi! Vero, voluptas quas?</p>
+    </section><br>
+
+    <div class="course" ><h1>Course We Offer -</h1></div>
+
+    <div class="card" id="courseclg">
+    <div class="card-body" id="card-b" >
+            <% for (let i=0; i<result.course.length;i++){ %>
+          <h4 class="card-title"><a href="" onclick="chng2()"><%=result.course[i] %></a></h4>
+          <% }%>
+        </div>
+      </div><br>
+
+      <div class="contacthead" ><h1 class="contactclg">Contact Us</h1></div>
+      <div class="contact" id="contactclg">
+        Address -<address><%=result.clgaddress%></address>
+        Phone no - <p><%=result.contact%></p>
+        Email - <p>info@gamil.com</p>
+    </div>
+
+    <footer>
+      <div class="row primary">
+        <div class="column about">
+      
+        <h3><%=result.clgname%></h3>
+      
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+            voluptatem corporis error non,
+        </p>
+      
+        <div class="social">
+          <i class="fa-brands fa-facebook-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-youtube-square"></i>
+          <i class="fa-brands fa-whatsapp-square"></i>
+        </div>
+      </div>
+      
+      <div class="column links">
+      <h3>Some Links</h3>
+      
+       <ul>
+      
+        <li>
+         <a href="#faq">F.A.Q</a>
+        </li>
+        <li>
+         <a href="#cookies-policy">Cookies Policy</a>
+        </li>
+        <li>
+         <a href="#terms-of-services">Terms Of Service</a>
+        </li>
+        <li>
+         <a href="#support">Support</a>
+        </li>
+       </ul>
+      
+      </div>
+      
+      
+      <div class="column links">
+        <h3>Some Links</h3>
+         <ul>
+          <li>
+           <a href="#faq">F.A.Q</a>
+          </li>
+          <li>
+           <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li>
+          <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li>
+          <a href="#support">Support</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="column subscribe">
+       <h3>Newsletter</h3>
+        <div>
+         <input type="email" placeholder="Your email id here" />
+         <button>Subscribe</button>
+        </div>
+      
+      </div>
+      
+      </div>
+      
+      <div class="row copyright">
+        <div class="footer-menu">
+      
+        <a href="#headclg">Home</a>
+        <a href="#aboutclg">About</a>
+        <a href="#courseclg">Course</a>
+        <a href="#contactclg">Contact</a>
+       
+      
+        </div>
+         <p>Copyright &copy; 2023 <%=result.clgname %></p>
+      </div>
+      </footer>
+
+      <!--Script file-->
+      <script src="/static/logic.js"></script>
+</body>
+</html>

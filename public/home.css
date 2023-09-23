@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainhead{
+   position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.header{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 10%;
+
+}
+.header>a{
+  z-index: 99;
+  margin-left: -15px;
+}
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(150, 255, 164, 0.854);  
+    height: 70px;
+}
+.nav a{
+    display: inline-block;
+    padding: 12px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav>a:hover{
+    color: red;
+    font-weight: bold;
+
+}
+
+
+
+.marquee{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+
+.overlay{
+    background-image: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);;
+    z-index: 11;
+    width: 100%;
+    height: 860px;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+
+.welcome{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    font-weight: bold;
+    z-index: 12;
+    
+
+}
+.welcome>h1{
+    font-size: 55px;
+}
+
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#main>video{
+    width: 100%;
+    height: 100%;
+}
+
+.searchmain{
+    position: absolute;
+    top: 52%;
+    background-color: rgb(237, 193, 204);
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    padding: 25px;
+    z-index: 15;
+}
+
+#searchsection{
+    margin-top: 50px;
+}
+
+#searchsection>input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid ;
+    width: 45%;
+}
+
+
+#myUL{
+    display: none;
+    background-color: white;
+    width: 60%;
+    margin-left: 130px;
+    border-radius: 15px;
+    max-height: 100px;
+    overflow: auto;
+}
+#myUL1{
+    display: none;
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    margin-left: 220px;
+    border-radius: 15px;
+   overflow: auto;
+}
+#myUL>a{
+    text-decoration: none;
+    margin-left: 0px;
+    color: black;
+    width: 100%;
+}
+#myUL a>li{
+    list-style: none;
+}
+#myUL> a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(37, 123, 222);
+    border-radius: 20px;
+   
+    
+}
+
+
+#myUL1>li{
+    list-style-type: none;
+    margin-left: 0px;
+}
+#myUL1 li>a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+#myUL1>li:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(37, 123, 222);
+    border-radius: 20px;
+   
+    
+}
+
+#myUL1 li>a:hover{
+    color: white;
+}
+
+footer {
+    background-color: #121315;
+    color: #a7a7a7;
+    font-size: 16px;
+    
+   
+  }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #2a8ded;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  .social i {
+    color: #bac6d9;
+  }
+  
+  .copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+  }
+  .footer-menu{
+    float: left;
+      
+  }
+  
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+  
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: right;
+  }

@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(241, 224, 201);
+}
+.headercourse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    margin-top: 70px;
+    
+}
+
+.headercourse>h1{
+    padding: 15px;
+}
+
+.mainhead{
+    margin-top: -70px;
+}
+.aboutcourse{
+    display: flex;
+    flex-direction: column;
+}
+.aboutcourse>h2{
+    margin-left: 250px;
+}
+
+
+.aboutcourse>p{
+    margin-left: 250px;
+    width: 70%;
+}
+
+.missioncourse{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.missioncourse>h2{
+    margin-left: 250px;
+}
+
+
+.missioncourse>p{
+    margin-left: 250px;
+    width: 70%;
+}
+
+.objcourse{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.objcourse>h2{
+    margin-left: 250px;
+}
+
+
+.objcourse>p{
+    margin-left: 250px;
+    width: 70%;
+}
+
+@media screen and (max-width:768px){
+    
+    .headercourse>h1{
+        margin-left: 200px;
+    }
+    footer{
+        width: 130%;
+    }
+}
+
+@media screen and (max-width:480px){
+    
+    .headercourse>h1{
+        margin-left:500px;
+        font-size: 35px;
+        width: 130%;
+       
+    }
+
+    .aboutcourse>h2{
+        margin-left: 200px;
+        font-size: 35px;
+    }
+    
+    
+    .aboutcourse>p{
+        margin-left: 200px;
+        width: 120%;
+        font-size: 25px;
+    }
+
+    .missioncourse>h2{
+        margin-left: 200px;
+        font-size: 35px;
+    }
+    
+    
+    .missioncourse>p{
+        margin-left: 200px;
+        width: 120%;
+        font-size: 25px;
+    }
+
+    .objcourse>h2{
+        margin-left: 200px;
+        font-size: 35px;
+    }
+    
+    
+    .objcourse>p{
+        margin-left: 200px;
+        width: 120%;
+        font-size: 25px;
+    }
+    footer{
+        width: 200%;
+        
+    }
+}

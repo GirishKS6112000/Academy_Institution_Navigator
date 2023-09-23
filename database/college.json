@@ -1,0 +1,345 @@
+[{
+  "_id": {
+    "$oid": "64f20c4c8e33c56689d32a4a"
+  },
+  "clgname": "Trident Academy of Technology",
+  "clgaddress": "Bhubaneswar",
+  "contact": {
+    "$numberLong": "7378767429"
+  },
+  "course": [
+    "Bca",
+    "Mca",
+    "Btech CSE",
+    "ITI",
+    "Mtech CSE",
+    "Bse CS"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f2cea2473b31ec48001b56"
+  },
+  "clgname": "College Of Engineering Bhubaneswar",
+  "clgaddress": " Patia ,Bhubaneswar , Odisha",
+  "contact": {
+    "$numberLong": "8945584459"
+  },
+  "course": [
+    "Bca",
+    "Mca",
+    "Btech CSE",
+    "ITI",
+    "Mtech CSE",
+    "Bse CS"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f2cf3fe8a73a500e444da0"
+  },
+  "clgname": "Kalinga Institute of Industrial Technology",
+  "clgaddress": " Kiit Square , Patia ,Bhubaneswar , Odisha",
+  "contact": 978764429,
+  "course": [
+    "Bca",
+    "Mca",
+    "Btech CSE",
+    "ITI"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b5c9cb99ba5ac063fd58"
+  },
+  "clgname": "Biju Patnaik University of Technology (BPUT)",
+  "clgaddress": " Rourkela , Odisha",
+  "contact": {
+    "$numberLong": "9787884429"
+  },
+  "course": [
+    "Bca",
+    "Mca",
+    "Btech CSE",
+    "Mtech CSE"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b64aadbbad86666522df"
+  },
+  "clgname": "Fakir Mohan University (FMU)",
+  "clgaddress": " Balasore , Odisha",
+  "contact": {
+    "$numberLong": "9787884799"
+  },
+  "course": [
+    "Bca",
+    "Mca",
+    "Btech CSE",
+    "Mtech CSE"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b67f6cded760ed4b793f"
+  },
+  "clgname": "Gangadhar Meher University (GMU Sambalpur)",
+  "clgaddress": " Sambalpur , Odisha",
+  "contact": {
+    "$numberLong": "9787884799"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b6bb4af306a20342a0e9"
+  },
+  "clgname": "Kalinga Institute of Social Sciences (KISS)",
+  "clgaddress": " Patia ,Bhubaneswar , Odisha",
+  "contact": {
+    "$numberLong": "9781124799"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b6fc4ffeb9ca8c9995d8"
+  },
+  "clgname": "Siksha O Anusandhan",
+  "clgaddress": "Bhubaneswar , Odisha",
+  "contact": {
+    "$numberLong": "7781124799"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b73d0f5664393bc8d0cd"
+  },
+  "clgname": "Abhilashi University",
+  "clgaddress": "Bhubaneswar , Odisha",
+  "contact": {
+    "$numberLong": "7781124799"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b7950ba36ee9fe72f63b"
+  },
+  "clgname": "Acharya N.G. Ranga Agricultural University",
+  "clgaddress": "Hydrabad",
+  "contact": {
+    "$numberLong": "7761124799"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b7d7ea997facd806ce45"
+  },
+  "clgname": "Amity University",
+  "clgaddress": "Noida",
+  "contact": {
+    "$numberLong": "7761784790"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b7ecbd0cf078008b3514"
+  },
+  "clgname": "APJ Abdul Kalam Technological University",
+  "clgaddress": "Noida",
+  "contact": {
+    "$numberLong": "7761784790"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b818c1dd19cd8c30a808"
+  },
+  "clgname": "Central University of Odisha",
+  "clgaddress": "\tThiruvananthapuram",
+  "contact": {
+    "$numberLong": "7761724790"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b8680bd81a4d0a92cc97"
+  },
+  "clgname": "IIMT University",
+  "clgaddress": "\tKoraput",
+  "contact": {
+    "$numberLong": "7761724780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b9431df7fd3b365a9923"
+  },
+  "clgname": "Indian Institute of Information Technology, Pune",
+  "clgaddress": "Pune",
+  "contact": {
+    "$numberLong": "9760724780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b98bdcfa32ae399ad7c0"
+  },
+  "clgname": "J.C. Bose University of Science and Technology",
+  "clgaddress": "\tFaridabad",
+  "contact": {
+    "$numberLong": "9460724780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca",
+    "ITI"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509b9d9e61563c602a9943a"
+  },
+  "clgname": "MIT University",
+  "clgaddress": "Shillong",
+  "contact": {
+    "$numberLong": "9460714780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca",
+    "ITI"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509ba235cd47d9d23915bbf"
+  },
+  "clgname": "National Institute of Technology, Rourkela",
+  "clgaddress": "Rourkela",
+  "contact": {
+    "$numberLong": "7260714780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca",
+    "ITI"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509ba4f03652eb82b9465ad"
+  },
+  "clgname": "Odisha University of Agriculture and Technology",
+  "clgaddress": "Bhubaneswar",
+  "contact": {
+    "$numberLong": "7360714780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca",
+    "ITI"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6509ba8a7b5dd1313fddaf74"
+  },
+  "clgname": "Pondicherry University",
+  "clgaddress": "Puducherry",
+  "contact": {
+    "$numberLong": "7360713780"
+  },
+  "course": [
+    "Bca",
+    "Btech CSE",
+    "Mtech CSE",
+    "Mca",
+    "ITI"
+  ],
+  "__v": 0
+}]

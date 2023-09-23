@@ -1,0 +1,49 @@
+/* TABLET */
+@media screen and (max-width: 768px){
+       
+    .abouthead{
+        margin-top:80px ;
+    }
+        
+    .nav{
+      margin-top: 0px;
+    }
+
+    .header{
+      margin-top: 0px;
+    }
+      .headline{
+        width:95%;
+        margin-top:350px;
+        margin-left: 18px;
+        border: 2px dashed;
+        height: 700px;
+       
+        padding: 20px;
+        border-radius: 10px;
+        background-color: skyblue;
+    
+      }  
+
+      .aboutimg{
+       
+        margin-left: -260px;
+      }
+      .aboutimg>img{
+        width: 400px;
+    }
+    
+
+     
+}
+
+
+/* MOBILE */
+
+   
+  
+
+  
+
+
+
